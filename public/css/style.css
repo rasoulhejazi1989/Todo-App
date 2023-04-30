@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-image: url(../images/volcano_road_glow_322312_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 0 0 2;
+    border-width: 0;
+    transition: all 0.2s;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.5rem 1.2rem;
+    margin-bottom: -1;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.todo-indicator {
+    position: absolute;
+    width: 4;
+}
+
+.bg-warning {
+    background-color: #f7b925;
+}
+
+.widget-content {
+    padding: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+
+.widget-content .widget-content-wrapper {
+    display: flex;
+    flex: 1;
+    position: relative;
+    align-items: center;
+}
+
+/* .widget-content .widget-content-right.widget-content-action {
+
+} */
+
+
+
